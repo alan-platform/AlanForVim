@@ -9,4 +9,4 @@ Alan for Vim
    ```
    set foldmethod=indent
    ```
-3. Open with `vim` the `alan`-file
+5. Open with `vim` the `alan`-file
