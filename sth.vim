@@ -2,6 +2,8 @@ syn region SpaceSingleQuoteString start=/\ '/ end=/'/
 syn region TABSingleQuoteString start=/\t'/ end=/'/
 syn region NLSingleQuoteString start=/^'/ end=/'/
 syn region DoubleQuoteString start=/"/ end=/"/
+syn region Comment start=/\/\*/ end=/\*\//
+syn region TODOComment start=/\/\*\ TODO/ end=/\*\//
 syn match Comment '\/\/.*$'
 syn keyword TypeKeyWord text number integer natural reference group component stategroup collection dictionary matrix densematrix sparsematrix
 syn match TODOComment '\/\/ TODO.*$'
