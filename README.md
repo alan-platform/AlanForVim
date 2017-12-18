@@ -1,5 +1,5 @@
-# FabricForVim
-Fabric for Vim
+# AlanForVim
+Alan for Vim
 
 ## Instructions
 1. Close all instances of `vim`.
